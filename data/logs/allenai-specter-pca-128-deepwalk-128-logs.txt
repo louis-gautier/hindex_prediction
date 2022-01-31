@@ -1,0 +1,510 @@
+Performing fold 0...
+##########################################
+Epoch 0 completed, MSE loss: 99.27630615234375
+Epoch 1 completed, MSE loss: 88.16416931152344
+Epoch 2 completed, MSE loss: 84.60552215576172
+Epoch 3 completed, MSE loss: 82.0796127319336
+Epoch 4 completed, MSE loss: 79.23027038574219
+Epoch 5 completed, MSE loss: 76.61369323730469
+Epoch 6 completed, MSE loss: 75.22463989257812
+Epoch 7 completed, MSE loss: 72.144775390625
+Epoch 8 completed, MSE loss: 71.99524688720703
+Epoch 9 completed, MSE loss: 69.97734069824219
+Training complete, switching to evaluation...
+MSE loss on fold 0: 77.58424170029762
+Performing fold 1...
+##########################################
+MLP-k-fold.py:93: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  loss = F.mse_loss(output, target)
+MLP-k-fold.py:98: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  fold_loss += F.mse_loss(output, target, reduction='sum')
+Epoch 0 completed, MSE loss: 98.65900421142578
+Epoch 1 completed, MSE loss: 88.27115631103516
+Epoch 2 completed, MSE loss: 83.2677001953125
+Epoch 3 completed, MSE loss: 80.5962905883789
+Epoch 4 completed, MSE loss: 77.06813049316406
+Epoch 5 completed, MSE loss: 74.66004943847656
+Epoch 6 completed, MSE loss: 72.8852767944336
+Epoch 7 completed, MSE loss: 72.10997009277344
+Epoch 8 completed, MSE loss: 69.79827880859375
+Epoch 9 completed, MSE loss: 68.14781188964844
+Training complete, switching to evaluation...
+MSE loss on fold 1: 79.53116043693325
+Performing fold 2...
+##########################################
+Epoch 0 completed, MSE loss: 99.78922271728516
+Epoch 1 completed, MSE loss: 90.58267974853516
+Epoch 2 completed, MSE loss: 84.16508483886719
+Epoch 3 completed, MSE loss: 80.99374389648438
+Epoch 4 completed, MSE loss: 77.95841217041016
+Epoch 5 completed, MSE loss: 87.30084991455078
+Epoch 6 completed, MSE loss: 76.5301513671875
+Epoch 7 completed, MSE loss: 73.68775939941406
+Epoch 8 completed, MSE loss: 71.59553527832031
+Epoch 9 completed, MSE loss: 71.55579376220703
+Training complete, switching to evaluation...
+MSE loss on fold 2: 76.0506273309937
+Performing fold 3...
+##########################################
+Epoch 0 completed, MSE loss: 100.5120849609375
+Epoch 1 completed, MSE loss: 89.11038970947266
+Epoch 2 completed, MSE loss: 84.26335144042969
+Epoch 3 completed, MSE loss: 81.07594299316406
+Epoch 4 completed, MSE loss: 78.3831558227539
+Epoch 5 completed, MSE loss: 76.70586395263672
+Epoch 6 completed, MSE loss: 73.39923095703125
+Epoch 7 completed, MSE loss: 72.32620239257812
+Epoch 8 completed, MSE loss: 71.23235321044922
+Epoch 9 completed, MSE loss: 68.42017364501953
+Training complete, switching to evaluation...
+MSE loss on fold 3: 88.09211193956948
+Performing fold 4...
+##########################################
+Epoch 0 completed, MSE loss: 101.21267700195312
+Epoch 1 completed, MSE loss: 88.55133819580078
+Epoch 2 completed, MSE loss: 84.53738403320312
+Epoch 3 completed, MSE loss: 81.06385803222656
+Epoch 4 completed, MSE loss: 80.41226196289062
+Epoch 5 completed, MSE loss: 76.85557556152344
+Epoch 6 completed, MSE loss: 74.3288803100586
+Epoch 7 completed, MSE loss: 74.30215454101562
+Epoch 8 completed, MSE loss: 71.08135986328125
+Epoch 9 completed, MSE loss: 75.0320053100586
+Training complete, switching to evaluation...
+MSE loss on fold 4: 84.44736171053351
+Performing fold 0...
+##########################################
+Epoch 0 completed, MSE loss: 92.20183563232422
+Epoch 1 completed, MSE loss: 76.29108428955078
+Epoch 2 completed, MSE loss: 68.65685272216797
+Epoch 3 completed, MSE loss: 62.45964431762695
+Epoch 4 completed, MSE loss: 57.020938873291016
+Epoch 5 completed, MSE loss: 51.93085479736328
+Epoch 6 completed, MSE loss: 47.52175521850586
+Epoch 7 completed, MSE loss: 43.7071418762207
+Epoch 8 completed, MSE loss: 40.867130279541016
+Epoch 9 completed, MSE loss: 37.972434997558594
+Training complete, switching to evaluation...
+MSE loss on fold 0: 76.65339985839017
+Performing fold 1...
+##########################################
+Epoch 0 completed, MSE loss: 91.03673553466797
+Epoch 1 completed, MSE loss: 75.84513854980469
+Epoch 2 completed, MSE loss: 68.32213592529297
+Epoch 3 completed, MSE loss: 61.884620666503906
+Epoch 4 completed, MSE loss: 56.66227722167969
+Epoch 5 completed, MSE loss: 51.67629623413086
+Epoch 6 completed, MSE loss: 47.49409484863281
+Epoch 7 completed, MSE loss: 43.77692413330078
+Epoch 8 completed, MSE loss: 40.92756652832031
+Epoch 9 completed, MSE loss: 38.06916046142578
+Training complete, switching to evaluation...
+MSE loss on fold 1: 79.16311309576254
+Performing fold 2...
+##########################################
+Epoch 0 completed, MSE loss: 90.9793930053711
+Epoch 1 completed, MSE loss: 75.42335510253906
+Epoch 2 completed, MSE loss: 67.84302520751953
+Epoch 3 completed, MSE loss: 63.16071319580078
+Epoch 4 completed, MSE loss: 57.16484832763672
+Epoch 5 completed, MSE loss: 52.03417205810547
+Epoch 6 completed, MSE loss: 47.7795524597168
+Epoch 7 completed, MSE loss: 44.1066780090332
+Epoch 8 completed, MSE loss: 41.386722564697266
+Epoch 9 completed, MSE loss: 38.304805755615234
+Training complete, switching to evaluation...
+MSE loss on fold 2: 75.0008605592726
+Performing fold 3...
+##########################################
+Epoch 0 completed, MSE loss: 90.68253326416016
+Epoch 1 completed, MSE loss: 75.27664184570312
+Epoch 2 completed, MSE loss: 68.06048583984375
+Epoch 3 completed, MSE loss: 62.499725341796875
+Epoch 4 completed, MSE loss: 56.906917572021484
+Epoch 5 completed, MSE loss: 52.53385925292969
+Epoch 6 completed, MSE loss: 48.13703536987305
+Epoch 7 completed, MSE loss: 43.95488739013672
+Epoch 8 completed, MSE loss: 41.2972297668457
+Epoch 9 completed, MSE loss: 38.77644348144531
+Training complete, switching to evaluation...
+MSE loss on fold 3: 76.30098425214503
+Performing fold 4...
+##########################################
+Epoch 0 completed, MSE loss: 90.37213134765625
+Epoch 1 completed, MSE loss: 75.41055297851562
+Epoch 2 completed, MSE loss: 68.15959930419922
+Epoch 3 completed, MSE loss: 61.63313674926758
+Epoch 4 completed, MSE loss: 56.593597412109375
+Epoch 5 completed, MSE loss: 51.12943649291992
+Epoch 6 completed, MSE loss: 46.74775695800781
+Epoch 7 completed, MSE loss: 43.3947639465332
+Epoch 8 completed, MSE loss: 40.76335906982422
+Epoch 9 completed, MSE loss: 37.9565315246582
+Training complete, switching to evaluation...
+MSE loss on fold 4: 77.50049124123089
+Performing fold 0...
+##########################################
+Epoch 0 completed, MSE loss: 98.70761108398438
+Epoch 1 completed, MSE loss: 87.9758071899414
+Epoch 2 completed, MSE loss: 83.4342041015625
+Epoch 3 completed, MSE loss: 80.60145568847656
+Epoch 4 completed, MSE loss: 78.40060424804688
+Epoch 5 completed, MSE loss: 74.84740447998047
+Epoch 6 completed, MSE loss: 73.11910247802734
+Epoch 7 completed, MSE loss: 70.91622924804688
+Epoch 8 completed, MSE loss: 68.66339874267578
+Epoch 9 completed, MSE loss: 67.19387817382812
+Training complete, switching to evaluation...
+MSE loss on fold 0: 80.330806693756
+Performing fold 1...
+##########################################
+Epoch 0 completed, MSE loss: 99.78369903564453
+Epoch 1 completed, MSE loss: 88.17716979980469
+Epoch 2 completed, MSE loss: 84.71305084228516
+Epoch 3 completed, MSE loss: 81.82239532470703
+Epoch 4 completed, MSE loss: 78.88078308105469
+Epoch 5 completed, MSE loss: 76.4509506225586
+Epoch 6 completed, MSE loss: 74.11709594726562
+Epoch 7 completed, MSE loss: 71.92326354980469
+Epoch 8 completed, MSE loss: 70.69745635986328
+Epoch 9 completed, MSE loss: 67.73003387451172
+Training complete, switching to evaluation...
+MSE loss on fold 1: 76.00729596757144
+Performing fold 2...
+##########################################
+Epoch 0 completed, MSE loss: 100.05166625976562
+Epoch 1 completed, MSE loss: 89.29283905029297
+Epoch 2 completed, MSE loss: 85.2310562133789
+Epoch 3 completed, MSE loss: 81.6187744140625
+Epoch 4 completed, MSE loss: 78.75479888916016
+Epoch 5 completed, MSE loss: 75.93778228759766
+Epoch 6 completed, MSE loss: 75.268310546875
+Epoch 7 completed, MSE loss: 71.89586639404297
+Epoch 8 completed, MSE loss: 70.6343994140625
+Epoch 9 completed, MSE loss: 68.93971252441406
+Training complete, switching to evaluation...
+MSE loss on fold 2: 77.4386516182219
+Performing fold 3...
+##########################################
+Epoch 0 completed, MSE loss: 98.7545394897461
+Epoch 1 completed, MSE loss: 87.26637268066406
+Epoch 2 completed, MSE loss: 83.12210083007812
+Epoch 3 completed, MSE loss: 79.8857650756836
+Epoch 4 completed, MSE loss: 77.60627746582031
+Epoch 5 completed, MSE loss: 75.87979125976562
+Epoch 6 completed, MSE loss: 73.16284942626953
+Epoch 7 completed, MSE loss: 72.46940612792969
+Epoch 8 completed, MSE loss: 69.06352233886719
+Epoch 9 completed, MSE loss: 67.98362731933594
+Training complete, switching to evaluation...
+MSE loss on fold 3: 79.3044677187917
+Performing fold 4...
+##########################################
+Epoch 0 completed, MSE loss: 99.7047348022461
+Epoch 1 completed, MSE loss: 88.55599975585938
+Epoch 2 completed, MSE loss: 86.11856842041016
+Epoch 3 completed, MSE loss: 82.27628326416016
+Epoch 4 completed, MSE loss: 79.35184478759766
+Epoch 5 completed, MSE loss: 77.28015899658203
+Epoch 6 completed, MSE loss: 74.49198150634766
+Epoch 7 completed, MSE loss: 72.95708465576172
+Epoch 8 completed, MSE loss: 70.91761779785156
+Epoch 9 completed, MSE loss: 68.77293395996094
+Training complete, switching to evaluation...
+MSE loss on fold 4: 78.74318364741498
+Performing fold 0...
+##########################################
+Epoch 0 completed, MSE loss: 99.48724365234375
+Epoch 1 completed, MSE loss: 87.69512176513672
+Epoch 2 completed, MSE loss: 83.48658752441406
+Epoch 3 completed, MSE loss: 80.80524444580078
+Epoch 4 completed, MSE loss: 77.9478530883789
+Epoch 5 completed, MSE loss: 76.73382568359375
+Epoch 6 completed, MSE loss: 74.15144348144531
+Epoch 7 completed, MSE loss: 73.3543701171875
+Epoch 8 completed, MSE loss: 70.51935577392578
+Epoch 9 completed, MSE loss: 68.70816802978516
+Training complete, switching to evaluation...
+MSE loss on fold 0: 78.6671207310524
+Performing fold 1...
+##########################################
+Epoch 0 completed, MSE loss: 100.97120666503906
+Epoch 1 completed, MSE loss: 89.46728515625
+Epoch 2 completed, MSE loss: 85.32244110107422
+Epoch 3 completed, MSE loss: 83.25205993652344
+Epoch 4 completed, MSE loss: 79.42354583740234
+Epoch 5 completed, MSE loss: 77.20210266113281
+Epoch 6 completed, MSE loss: 75.10688018798828
+Epoch 7 completed, MSE loss: 73.14543151855469
+Epoch 8 completed, MSE loss: 71.69630432128906
+Epoch 9 completed, MSE loss: 69.5838851928711
+Training complete, switching to evaluation...
+MSE loss on fold 1: 75.11129950601317
+Performing fold 2...
+##########################################
+Epoch 0 completed, MSE loss: 99.6981201171875
+Epoch 1 completed, MSE loss: 88.14546966552734
+Epoch 2 completed, MSE loss: 83.51882934570312
+Epoch 3 completed, MSE loss: 80.8431625366211
+Epoch 4 completed, MSE loss: 78.31414031982422
+Epoch 5 completed, MSE loss: 75.98143005371094
+Epoch 6 completed, MSE loss: 74.23355865478516
+Epoch 7 completed, MSE loss: 72.53264617919922
+Epoch 8 completed, MSE loss: 69.73823547363281
+Epoch 9 completed, MSE loss: 69.75777435302734
+Training complete, switching to evaluation...
+MSE loss on fold 2: 78.53636483296656
+Performing fold 3...
+##########################################
+Epoch 0 completed, MSE loss: 97.89349365234375
+Epoch 1 completed, MSE loss: 85.81322479248047
+Epoch 2 completed, MSE loss: 82.77623748779297
+Epoch 3 completed, MSE loss: 79.27870178222656
+Epoch 4 completed, MSE loss: 76.78886413574219
+Epoch 5 completed, MSE loss: 74.97148895263672
+Epoch 6 completed, MSE loss: 72.45890808105469
+Epoch 7 completed, MSE loss: 71.85244750976562
+Epoch 8 completed, MSE loss: 69.78758239746094
+Epoch 9 completed, MSE loss: 68.29300689697266
+Training complete, switching to evaluation...
+MSE loss on fold 3: 84.77796495365811
+Performing fold 4...
+##########################################
+Epoch 0 completed, MSE loss: 99.01177978515625
+Epoch 1 completed, MSE loss: 87.22347259521484
+Epoch 2 completed, MSE loss: 83.53477478027344
+Epoch 3 completed, MSE loss: 80.43016052246094
+Epoch 4 completed, MSE loss: 77.7333755493164
+Epoch 5 completed, MSE loss: 75.66936492919922
+Epoch 6 completed, MSE loss: 73.83993530273438
+Epoch 7 completed, MSE loss: 72.5951156616211
+Epoch 8 completed, MSE loss: 70.84736633300781
+Epoch 9 completed, MSE loss: 69.64738464355469
+Training complete, switching to evaluation...
+MSE loss on fold 4: 75.32537671904481
+Performing fold 0...
+##########################################
+Epoch 0 completed, MSE loss: 91.4939193725586
+Epoch 1 completed, MSE loss: 76.09635925292969
+Epoch 2 completed, MSE loss: 69.32552337646484
+Epoch 3 completed, MSE loss: 63.892791748046875
+Epoch 4 completed, MSE loss: 59.47020721435547
+Epoch 5 completed, MSE loss: 55.377445220947266
+Epoch 6 completed, MSE loss: 51.43855285644531
+Epoch 7 completed, MSE loss: 48.01338577270508
+Epoch 8 completed, MSE loss: 44.97804641723633
+Epoch 9 completed, MSE loss: 42.99428176879883
+Training complete, switching to evaluation...
+MSE loss on fold 0: 77.20983394570369
+Performing fold 1...
+##########################################
+Epoch 0 completed, MSE loss: 91.935302734375
+Epoch 1 completed, MSE loss: 76.89623260498047
+Epoch 2 completed, MSE loss: 70.17752838134766
+Epoch 3 completed, MSE loss: 65.07232666015625
+Epoch 4 completed, MSE loss: 60.4909782409668
+Epoch 5 completed, MSE loss: 56.116092681884766
+Epoch 6 completed, MSE loss: 52.586769104003906
+Epoch 7 completed, MSE loss: 49.52323532104492
+Epoch 8 completed, MSE loss: 46.67190170288086
+Epoch 9 completed, MSE loss: 44.000038146972656
+Training complete, switching to evaluation...
+MSE loss on fold 1: 74.79443248682223
+Performing fold 2...
+##########################################
+Epoch 0 completed, MSE loss: 90.25184631347656
+Epoch 1 completed, MSE loss: 75.33332061767578
+Epoch 2 completed, MSE loss: 69.27255249023438
+Epoch 3 completed, MSE loss: 64.05022430419922
+Epoch 4 completed, MSE loss: 59.52994155883789
+Epoch 5 completed, MSE loss: 55.08725357055664
+Epoch 6 completed, MSE loss: 51.676631927490234
+Epoch 7 completed, MSE loss: 48.799964904785156
+Epoch 8 completed, MSE loss: 45.45183181762695
+Epoch 9 completed, MSE loss: 42.94394302368164
+Training complete, switching to evaluation...
+MSE loss on fold 2: 82.67548196615704
+Performing fold 3...
+##########################################
+Epoch 0 completed, MSE loss: 91.89532470703125
+Epoch 1 completed, MSE loss: 76.70448303222656
+Epoch 2 completed, MSE loss: 69.67599487304688
+Epoch 3 completed, MSE loss: 64.63121032714844
+Epoch 4 completed, MSE loss: 59.694026947021484
+Epoch 5 completed, MSE loss: 55.26951217651367
+Epoch 6 completed, MSE loss: 51.761314392089844
+Epoch 7 completed, MSE loss: 48.604957580566406
+Epoch 8 completed, MSE loss: 45.583168029785156
+Epoch 9 completed, MSE loss: 42.96098709106445
+Training complete, switching to evaluation...
+MSE loss on fold 3: 86.88877249683559
+Performing fold 4...
+##########################################
+Epoch 0 completed, MSE loss: 92.52095794677734
+Epoch 1 completed, MSE loss: 76.71029663085938
+Epoch 2 completed, MSE loss: 69.96498107910156
+Epoch 3 completed, MSE loss: 64.64451599121094
+Epoch 4 completed, MSE loss: 60.19744110107422
+Epoch 5 completed, MSE loss: 55.946510314941406
+Epoch 6 completed, MSE loss: 52.14829635620117
+Epoch 7 completed, MSE loss: 48.70246124267578
+Epoch 8 completed, MSE loss: 46.366390228271484
+Epoch 9 completed, MSE loss: 44.070343017578125
+Training complete, switching to evaluation...
+MSE loss on fold 4: 75.45795974170976
+Performing fold 0...
+##########################################
+Epoch 0 completed, MSE loss: 99.86453247070312
+Epoch 1 completed, MSE loss: 88.03730773925781
+Epoch 2 completed, MSE loss: 83.70611572265625
+Epoch 3 completed, MSE loss: 80.50345611572266
+Epoch 4 completed, MSE loss: 78.78707122802734
+Epoch 5 completed, MSE loss: 76.9178466796875
+Epoch 6 completed, MSE loss: 74.23664093017578
+Epoch 7 completed, MSE loss: 73.79732513427734
+Epoch 8 completed, MSE loss: 72.43595886230469
+Epoch 9 completed, MSE loss: 69.98807525634766
+Training complete, switching to evaluation...
+MSE loss on fold 0: 77.9885344034206
+Performing fold 1...
+##########################################
+Epoch 0 completed, MSE loss: 99.34259796142578
+Epoch 1 completed, MSE loss: 87.64382934570312
+Epoch 2 completed, MSE loss: 82.97163391113281
+Epoch 3 completed, MSE loss: 80.75159454345703
+Epoch 4 completed, MSE loss: 77.5035629272461
+Epoch 5 completed, MSE loss: 75.98426818847656
+Epoch 6 completed, MSE loss: 73.56877899169922
+Epoch 7 completed, MSE loss: 72.25239562988281
+Epoch 8 completed, MSE loss: 70.85462951660156
+Epoch 9 completed, MSE loss: 68.80835723876953
+Training complete, switching to evaluation...
+MSE loss on fold 1: 80.30379858796371
+Performing fold 2...
+##########################################
+Epoch 0 completed, MSE loss: 98.38179779052734
+Epoch 1 completed, MSE loss: 86.83367919921875
+Epoch 2 completed, MSE loss: 83.20697784423828
+Epoch 3 completed, MSE loss: 80.82154083251953
+Epoch 4 completed, MSE loss: 77.61381530761719
+Epoch 5 completed, MSE loss: 75.04251861572266
+Epoch 6 completed, MSE loss: 74.47335815429688
+Epoch 7 completed, MSE loss: 72.80778503417969
+Epoch 8 completed, MSE loss: 71.00260925292969
+Epoch 9 completed, MSE loss: 68.23807525634766
+Training complete, switching to evaluation...
+MSE loss on fold 2: 80.86601744232318
+Performing fold 3...
+##########################################
+Epoch 0 completed, MSE loss: 99.85785675048828
+Epoch 1 completed, MSE loss: 88.32125854492188
+Epoch 2 completed, MSE loss: 84.44194793701172
+Epoch 3 completed, MSE loss: 82.01087951660156
+Epoch 4 completed, MSE loss: 79.65953826904297
+Epoch 5 completed, MSE loss: 77.92915344238281
+Epoch 6 completed, MSE loss: 74.30867767333984
+Epoch 7 completed, MSE loss: 73.13786315917969
+Epoch 8 completed, MSE loss: 70.9574966430664
+Epoch 9 completed, MSE loss: 70.430419921875
+Training complete, switching to evaluation...
+MSE loss on fold 3: 74.34511665995784
+Performing fold 4...
+##########################################
+Epoch 0 completed, MSE loss: 98.881103515625
+Epoch 1 completed, MSE loss: 88.66083526611328
+Epoch 2 completed, MSE loss: 84.07038116455078
+Epoch 3 completed, MSE loss: 81.95033264160156
+Epoch 4 completed, MSE loss: 78.74300384521484
+Epoch 5 completed, MSE loss: 77.10808563232422
+Epoch 6 completed, MSE loss: 74.41179656982422
+Epoch 7 completed, MSE loss: 72.93697357177734
+Epoch 8 completed, MSE loss: 70.79641723632812
+Epoch 9 completed, MSE loss: 69.02703857421875
+Training complete, switching to evaluation...
+MSE loss on fold 4: 81.94120265585879
+KFold results for k=5:
+######################################
+Results for the following parameters:
+Tunable parameters:
+########################################
+Size of hidden layer 1: 512
+Size of hidden layer 2: 256
+Using dropout: True
+Dropout p: 0.2
+Learning rate: 0.01
+Fold 0: 77.58424170029762
+Fold 1: 79.53116043693325
+Fold 2: 76.0506273309937
+Fold 3: 88.09211193956948
+Fold 4: 84.44736171053351
+Average value: 81.14110062366552
+Results for the following parameters:
+Tunable parameters:
+########################################
+Size of hidden layer 1: 512
+Size of hidden layer 2: 256
+Using dropout: False
+Dropout p: 0.0
+Learning rate: 0.01
+Fold 0: 76.65339985839017
+Fold 1: 79.16311309576254
+Fold 2: 75.0008605592726
+Fold 3: 76.30098425214503
+Fold 4: 77.50049124123089
+Average value: 76.92376980136025
+Results for the following parameters:
+Tunable parameters:
+########################################
+Size of hidden layer 1: 512
+Size of hidden layer 2: 256
+Using dropout: True
+Dropout p: 0.2
+Learning rate: 0.001
+Fold 0: 80.330806693756
+Fold 1: 76.00729596757144
+Fold 2: 77.4386516182219
+Fold 3: 79.3044677187917
+Fold 4: 78.74318364741498
+Average value: 78.3648811291512
+Results for the following parameters:
+Tunable parameters:
+########################################
+Size of hidden layer 1: 256
+Size of hidden layer 2: 128
+Using dropout: True
+Dropout p: 0.2
+Learning rate: 0.01
+Fold 0: 78.6671207310524
+Fold 1: 75.11129950601317
+Fold 2: 78.53636483296656
+Fold 3: 84.77796495365811
+Fold 4: 75.32537671904481
+Average value: 78.48362534854701
+Results for the following parameters:
+Tunable parameters:
+########################################
+Size of hidden layer 1: 256
+Size of hidden layer 2: 128
+Using dropout: False
+Dropout p: 0.0
+Learning rate: 0.01
+Fold 0: 77.20983394570369
+Fold 1: 74.79443248682223
+Fold 2: 82.67548196615704
+Fold 3: 86.88877249683559
+Fold 4: 75.45795974170976
+Average value: 79.40529612744567
+Results for the following parameters:
+Tunable parameters:
+########################################
+Size of hidden layer 1: 256
+Size of hidden layer 2: 128
+Using dropout: True
+Dropout p: 0.2
+Learning rate: 0.001
+Fold 0: 77.9885344034206
+Fold 1: 80.30379858796371
+Fold 2: 80.86601744232318
+Fold 3: 74.34511665995784
+Fold 4: 81.94120265585879
+Average value: 79.08893394990483

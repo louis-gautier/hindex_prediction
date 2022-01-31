@@ -1,0 +1,5 @@
+#!/bin/bash
+python3 full-features-processor.py "../../data/sentence-embeddings/mean-embeddings-fasttext-wiki-news-subwords-300-pca-128.csv" "../../data/node-embeddings/deepwalk-128.emb" "../../fasttext-wiki-news-subwords-300-pca-128-deepwalk-128.csv"
+python3 full-features-processor.py "../../data/mean-embeddings-fasttext-wiki-news-subwords-300-pca-128.csv" "../../data/sentence-embeddings/node-embeddings/node2vec-128-p4-q1.emb" "../../fasttext-wiki-news-subwords-300-pca-128-node2vec-128-p4-q1.csv"
+python3 full-features-processor.py "../../data/sentence-embeddings/transformer-embeddings-allenai-specter-pca-128.csv" "../../data/node-embeddings/deepwalk-128.emb" "../../allenai-specter-pca-128-deepwalk-128.csv"
+python3 full-features-processor.py "../../data/sentence-embeddings/transformer-embeddings-allenai-specter-pca-128.csv" "../../data/node-embeddings/node2vec-128-p4-q1.emb" "../../allenai-specter-pca-128-node2vec-128-p4-q1.csv"

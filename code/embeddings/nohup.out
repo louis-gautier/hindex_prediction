@@ -1,0 +1,20 @@
+Loading sentence embeddings...
+Traceback (most recent call last):
+  File "/home/clement/Documents/courses/INF554/inf554_challenge/pipelines/embeddings/transformer-pca-postprocessor-embeddings.py", line 18, in <module>
+    embeddings_df = pd.read_csv(sys.argv[1], header=None, delimiter=',')
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.9/3.9.5/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.9/3.9.5/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.9/3.9.5/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 488, in _read
+    return parser.read(nrows)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.9/3.9.5/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1047, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/home/linuxbrew/.linuxbrew/Cellar/python@3.9/3.9.5/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 223, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 801, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 857, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 843, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 1925, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+Loading sentence embeddings...
