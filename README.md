@@ -1,6 +1,6 @@
 # inf554_challenge
 
-In order to run all the pre-processing algorithms and the models, please download `abstracts.txt`, `author_papers.txt`, `train.csv`, `test.csv` and `coauthorship.edgelist`  in the `data` folder. Then, create a virtual environment, activate it and install the required libraries with
+In order to run all the pre-processing algorithms and the models, please download `abstracts.txt`, `author_papers.txt`, `train.csv`, `test.csv` and `coauthorship.edgelist`  in the `data` folder. These files are available on the following link: https://www.kaggle.com/c/inf554-2021/data. Then, create a virtual environment, activate it and install the required libraries with
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
